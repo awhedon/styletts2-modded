@@ -117,14 +117,14 @@ class FilePathDataset(torch.utils.data.Dataset):
             try:
                 # Check if file exists
                 if not osp.exists(full_path):
-                    alt_path1 = osp.join(self.root_path, "audio_data", path)
+                    alt_path1 = osp.join(self.root_path, path)
                     alt_path2 = osp.join(self.root_path, path.replace("audio_data/", ""))
                     if osp.exists(alt_path1):
                         full_path = alt_path1
                     elif osp.exists(alt_path2):
                         full_path = alt_path2
                     else:
-                        print(f"Skipping {path}: File not found")
+                        print(f"Skipping {alt_path1} | {alt_path2}: File not found")
                         continue
                 
                 # Try to load the audio
@@ -246,7 +246,7 @@ class FilePathDataset(torch.utils.data.Dataset):
             
             if not osp.exists(full_path):
                 # Try alternative paths
-                alt_path1 = osp.join(self.root_path, "audio_data", wave_path)
+                alt_path1 = osp.join(self.root_path, wave_path)
                 alt_path2 = osp.join(self.root_path, wave_path.replace("audio_data/", ""))
                 alt_path3 = wave_path
                 

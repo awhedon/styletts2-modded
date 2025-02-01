@@ -29,6 +29,8 @@ from Modules.slmadv import SLMAdversarialLoss
 from Modules.diffusion.sampler import DiffusionSampler, ADPM2Sampler, KarrasSchedule
 
 from optimizers import build_optimizer
+import datetime
+today = datetime.datetime.today
 
 # simple fix for dataparallel that allows access to class attributes
 class MyDataParallel(torch.nn.DataParallel):
@@ -542,7 +544,7 @@ def main(config_path):
             iters = iters + 1
             
             if (i+1)%log_interval == 0:
-                logger.info ('Epoch [%d/%d], Step [%d/%d], Loss: %.5f, Disc Loss: %.5f, Dur Loss: %.5f, CE Loss: %.5f, Norm Loss: %.5f, F0 Loss: %.5f, LM Loss: %.5f, Gen Loss: %.5f, Sty Loss: %.5f, Diff Loss: %.5f, DiscLM Loss: %.5f, GenLM Loss: %.5f, SLoss: %.5f, S2S Loss: %.5f, Mono Loss: %.5f'
+                logger.info (str(today()) + ' Epoch [%d/%d], Step [%d/%d], Loss: %.5f, Disc Loss: %.5f, Dur Loss: %.5f, CE Loss: %.5f, Norm Loss: %.5f, F0 Loss: %.5f, LM Loss: %.5f, Gen Loss: %.5f, Sty Loss: %.5f, Diff Loss: %.5f, DiscLM Loss: %.5f, GenLM Loss: %.5f, SLoss: %.5f, S2S Loss: %.5f, Mono Loss: %.5f'
                     %(epoch+1, epochs, i+1, len(train_list)//batch_size, running_loss / log_interval, d_loss, loss_dur, loss_ce, loss_norm_rec, loss_F0_rec, loss_lm, loss_gen_all, loss_sty, loss_diff, d_loss_slm, loss_gen_lm, s_loss, loss_s2s, loss_mono))
                 
                 writer.add_scalar('train/mel_loss', running_loss / log_interval, iters)

@@ -1,0 +1,100 @@
+audio_data/elevenlabs_0688.wav|lˈæftɚɹ ɪz ˈiːziɚ , mˈɪnɪt baɪ mˈɪnɪt , spˈɪld wɪð pɹˌɑːdɪɡˈælᵻɾi , tˈɪpt ˈaʊt æɾə tʃˈɪɹfəl wˈɜːd .|0
+audio_data/elevenlabs_0216.wav|aɪɐm nˌɑːt ˈiːvən fˈeɪntli lˈaɪk ɐ ɹˈoʊz .|0
+audio_data/elevenlabs_0365.wav|ðɛɹ ɪz ˈɔːlweɪz ɐ hˈɔlt ðɛɹ ʌv æt lˈiːst ɐ mˈɪnɪt ænd ɪt wʌz bɪkˈʌz ʌv ðɪs ðæt aɪ fˈɜːst mˈɛt tˈɑːm bjuːkˈænənz mˈɪstɹəs .|0
+audio_data/elevenlabs_0381.wav|ɪt hæd əkˈɜːd tə mˌiː ðæt ðɪs ʃˈædoʊ əvə ɡɚɹˈɑːʒ mˈʌst biː ɐ blˈaɪnd ænd ðæt sˈʌmptʃuːəs ænd ɹoʊmˈæntɪk ɐpˈɑːɹtmənts wɜː kənsˈiːld ˌoʊvɚhˈɛd wɛn ðə pɹəpɹˈaɪəɾɚ hɪmsˈɛlf ɐpˈɪɹd ɪnðə dˈoːɹ əvən ˈɑːfɪs , wˈaɪpɪŋ hɪz hˈændz ˌɔn ɐ pˈiːs ʌv wˈeɪst .|0
+audio_data/elevenlabs_0168.wav|juː dˈɪd ɪt , tˈɑːm , '' ʃiː sˈɛd ɐkjˈuːzɪŋli .|0
+audio_data/elevenlabs_0375.wav|aɪ fˈɑːloʊd hˌɪm ˌoʊvɚɹ ɐ lˈoʊ wˈaɪtwˈɑːʃt ɹˈeɪlɹoʊd fˈɛns ænd wiː wˈɔːkt bˈæk ɐ hˈʌndɹɪd jˈɑːɹdz ɐlˈɔŋ ðə ɹˈoʊd ˌʌndɚ dˈɑːktɚɹ ˈɛkəlbˌɜːɡz pɚsˈɪstənt stˈɛɹ .|0
+audio_data/elevenlabs_0857.wav|sˌʌm tˈaɪm bᵻfˌoːɹ hiː ˌɪntɹədˈuːst hɪmsˈɛlf aɪd ɡɑːt ɐ stɹˈɔŋ ɪmpɹˈɛʃən ðæt hiː wʌz pˈɪkɪŋ hɪz wˈɜːdz wɪð kˈɛɹ .|0
+audio_data/elevenlabs_0652.wav|ˈɛnɪwˌɛɹ .|0
+audio_data/elevenlabs_0466.wav|ðə lˈɪvɪŋ ɹˈuːm wʌz kɹˈaʊdᵻd tə ðə dˈoːɹz wɪð ɐ sˈɛt ʌv tˈæpᵻstɹid fˈɜːnɪtʃɚɹ ɛntˈaɪɚli tˈuː lˈɑːɹdʒ fɔːɹ ɪt sˌoʊ ðæt tə mˈuːv ɐbˌaʊt wʌz tə stˈʌmbəl kəntˈɪnjuːəli ˌoʊvɚ sˈiːnz ʌv lˈeɪdiz swˈɪŋɪŋ ɪnðə ɡˈɑːɹdənz ʌv vˈɜːseɪlz .|0
+audio_data/elevenlabs_0954.wav|.|0
+audio_data/elevenlabs_0947.wav|.|0
+audio_data/elevenlabs_0105.wav|ˈɔːl ðə kˈɑːɹz hæv ðə lˈɛft ɹˈɪɹ wˈiːl pˈeɪntᵻd blˈæk æz ɐ mˈoːɹnɪŋ ɹˈiːθ ænd ðɛɹz ɐ pɚsˈɪstənt wˈeɪl ˈɔːl nˈaɪt ɐlˈɔŋ ðə nˈɔːɹθ ʃˈoːɹ .|0
+audio_data/elevenlabs_0890.wav|wˈɛɹəpˌɑːn ˈɛvɹɪbˌɑːdi lˈæft .|0
+audio_data/elevenlabs_0978.wav|ɡˈʊd nˈaɪt .|0
+audio_data/elevenlabs_0878.wav|aɪ wʊdhɐv ɐksˈɛptᵻd wɪðˌaʊt kwˈɛstʃən ðɪ ˌɪnfɚmˈeɪʃən ðæt ɡˈætsbi spɹˈæŋ fɹʌmðə swˈɑːmps ʌv luːˌiːzɪˈænə ɔːɹ fɹʌmðə lˈoʊɚɹ ˈiːst sˈaɪd ʌv nˈuː jˈɔːɹk .|0
+audio_data/elevenlabs_0083.wav|ðeɪ wɜː bˈoʊθ ɪn wˈaɪt ænd ðɛɹ dɹˈɛsᵻz wɜː ɹˈɪplɪŋ ænd flˈʌɾɚɹɪŋ æz ɪf ðeɪ hæd dʒˈʌst bˌɪn blˈoʊn bˈæk ɪn ˈæftɚɹ ɐ ʃˈɔːɹt flˈaɪt ɚɹˈaʊnd ðə hˈaʊs .|0
+audio_data/elevenlabs_0298.wav|wˈeɪk mˌiː æɾ ˈeɪt , wˈoʊnt juː .|0
+audio_data/elevenlabs_0794.wav|wˌʌt dˈuː juː ɛkspˈɛkt ?|0
+audio_data/elevenlabs_0235.wav|aɪ ɹᵻpˈiːɾᵻd blˈæŋkli .|0
+audio_data/elevenlabs_0679.wav|ˈɛvɹi fɹˈaɪdeɪ fˈaɪv kɹˈeɪts ʌv ˈɔɹɪndʒᵻz ænd lˈɛmənz ɚɹˈaɪvd fɹʌm ɐ fɹˈuːɾɚɹɚɹ ɪn nˈuː jˈɔːɹk ˈɛvɹi mˈʌndeɪ ðiːz sˈeɪm ˈɔɹɪndʒᵻz ænd lˈɛmənz lˈɛft hɪz bˈæk dˈoːɹ ɪn ɐ pˈɪɹɐmˌɪd ʌv pˈʌlpləs hˈævz .|0
+audio_data/elevenlabs_0048.wav|ɪt wʌz ɡˈætsbiz mˈænʃən .|0
+audio_data/elevenlabs_0073.wav|wiː tˈɔːkt fɚɹə fjˈuː mˈɪnɪts ɔnðə sˈʌni pˈɔːɹtʃ .|0
+audio_data/elevenlabs_0723.wav|ɪŋkwˈaɪɚd dʒˈoːɹdən ʌvðə ɡˈɜːl bᵻsˈaɪd hɜː .|0
+audio_data/elevenlabs_0198.wav|wˌɛn , ˈɔːlmoʊst ɪmˈiːdɪətli , ðə tˈɛlᵻfˌoʊn ɹˈæŋ ɪnsˈaɪd ænd ðə bˈʌtlɚ lˈɛft ðə pˈɔːɹtʃ dˈeɪzi sˈiːzd əpˌɑːn ðə mˈoʊməntˌɛɹi ˌɪntɚɹˈʌpʃən ænd lˈiːnd təwˈɔːɹd mˌiː .|0
+audio_data/elevenlabs_0593.wav|nˈoʊbɑːdi fˈoːɹst juː tuː .|0
+audio_data/elevenlabs_0372.wav|aɪ wˈɔnt juː tə mˈiːt maɪ ɡˈɜːl .|0
+audio_data/elevenlabs_0885.wav|ðɛɹwˌʌz ðə bˈuːm əvə bˈeɪs dɹˈʌm , ænd ðə vˈɔɪs ʌvðɪ ˈɔːɹkᵻstɹə lˈiːdɚ ɹˈæŋ ˈaʊt sˈʌdənli əbˌʌv ðɪ ˌɛkəlˈeɪliə ʌvðə ɡˈɑːɹdən .|0
+audio_data/elevenlabs_0909.wav|ᵻlˈuːdɪŋ dʒˈoːɹdənz ˌʌndɚɡɹˈædʒuːət hˌuː wʌz nˈaʊ ɛŋɡˈeɪdʒd ɪn ɐn əbstˈɛtɹɪkəl kɑːnvɚsˈeɪʃən wɪð tˈuː kˈoːɹəs ɡˈɜːlz , ænd hˌuː ɪmplˈoːɹd mˌiː tə dʒˈɔɪn hˌɪm , aɪ wɛnt ɪnsˈaɪd .|0
+audio_data/elevenlabs_0635.wav|ðə lˈɪɾəl dˈɑːɡ wʌz sˈɪɾɪŋ ɔnðə tˈeɪbəl lˈʊkɪŋ wɪð blˈaɪnd ˈaɪz θɹuː ðə smˈoʊk ænd fɹʌm tˈaɪm tə tˈaɪm ɡɹˈoʊnɪŋ fˈeɪntli .|0
+audio_data/elevenlabs_0645.wav|ðˈɛn ðɛɹwˌɜː blˈʌdi tˈaʊəlz əpˌɑːn ðə bˈæθɹuːm flˈoːɹ , ænd wˈɪmɪnz vˈɔɪsᵻz skˈoʊldɪŋ , ænd hˈaɪ ˌoʊvɚ ðə kənfjˈuːʒən ɐ lˈɔŋ bɹˈoʊkən wˈeɪl ʌv pˈeɪn .|0
+audio_data/elevenlabs_0852.wav|hiː smˈaɪld ˌʌndɚstˈændɪŋli mˈʌtʃ mˈoːɹ ðɐn ˌʌndɚstˈændɪŋli .|0
+audio_data/elevenlabs_0302.wav|sˈiː juː ɐnˈɔn .|0
+audio_data/elevenlabs_0567.wav|wˌɛn ðeɪ dˈuː ɡɛt mˈæɹid , '' kəntˈɪnjuːd kˈæθɹɪn , `` ðeɪɚ ɡˌoʊɪŋ wˈɛst tə lˈɪv fɚɹə wˈaɪl ʌntˈɪl ɪt blˈoʊz ˈoʊvɚ .|0
+audio_data/elevenlabs_0082.wav|ðɪ ˈoʊnli kəmplˈiːtli stˈeɪʃənˌɛɹi ˈɑːbdʒɛkt ɪnðə ɹˈuːm wʌz ɐn ɪnˈoːɹməs kˈaʊtʃ ˌɔn wˌɪtʃ tˈuː jˈʌŋ wˈɪmɪn wɜː bˈɔɪd ˌʌp æz ðˌoʊ əpˌɑːn ɐn ˈæŋkɚd bəlˈuːn .|0
+audio_data/elevenlabs_0389.wav|wˈɜːks pɹˈɪɾi slˈoʊ , dˈoʊnt hiː ?|0
+audio_data/elevenlabs_0129.wav|ˈɛvɪdəntli ɪt sɚpɹˈaɪzd hɜːɹ æz mˈʌtʃ æz ɪt dˈɪd mˌiː , fɔːɹ ʃiː jˈɔːnd ænd wɪð ɐ sˈɪɹiz ʌv ɹˈæpɪd , dˈɛft mˈuːvmənts stˈʊd ˌʌp ˌɪntʊ ðə ɹˈuːm .|0
+audio_data/elevenlabs_0551.wav|dʒˈɔːɹdʒ bˈiː . wˈɪlsən æt ðə ɡˈæsəlˌiːn pˈʌmp , ɔːɹ sˈʌmθɪŋ lˈaɪk ðˈæt .|0
+audio_data/elevenlabs_0472.wav|mˈiːnwaɪl tˈɑːm bɹˈɔːt ˈaʊt ɐ bˈɑːɾəl ʌv wˈɪski fɹʌm ɐ lˈɑːkt bjˈʊɹɹoʊ dˈoːɹ .|0
+audio_data/elevenlabs_0750.wav|juː lˈʊk æt hˌɪm sˈʌmtaɪmz wɛn hiː θˈɪŋks nˈoʊbɑːdiz lˈʊkɪŋ æt hˌɪm .|0
+audio_data/elevenlabs_0046.wav|maɪ hˈaʊs wʌz æt ðə vˈɛɹi tˈɪp ʌvðɪ ˈɛɡ , ˈoʊnli fˈɪfti jˈɑːɹdz fɹʌmðə sˈaʊnd , ænd skwˈiːzd bᵻtwˌiːn tˈuː hjˈuːdʒ plˈeɪsᵻz ðæt ɹˈɛntᵻd fɔːɹ twˈɛlv ɔːɹ fˈɪftiːn θˈaʊzənd ɐ sˈiːzən .|0
+audio_data/elevenlabs_0829.wav|aɪ wʌz ɪnðə sˈɛvənθ ˈɪnfəntɹi ʌntˈɪl dʒˈuːn nˈaɪntiːnˈeɪtiːn .|0
+audio_data/elevenlabs_0272.wav|aɪ wˈoʊk ˌʌp ˌaʊɾəv ðɪ ˈiːθɚ wɪð ɐn ˈʌɾɚli ɐbˈændənd fˈiːlɪŋ ænd ˈæskt ðə nˈɜːs ɹˈaɪt ɐwˈeɪ ɪf ɪt wʌzɐ bˈɔɪ ɔːɹ ɐ ɡˈɜːl .|0
+audio_data/elevenlabs_0620.wav|ɪt wʌz ɔnðə tˈuː lˈɪɾəl sˈiːts fˈeɪsɪŋ ˈiːtʃ ˈʌðɚ ðæt ɑːɹ ˈɔːlweɪz ðə lˈæst wˈʌnz lˈɛft ɔnðə tɹˈeɪn .|0
+audio_data/elevenlabs_0354.wav|ɪnvˌɑːləntˈɛɹᵻli aɪ ɡlˈænst sˈiːwɚd ænd dɪstˈɪŋɡwɪʃt nˈʌθɪŋ ɛksˈɛpt ɐ sˈɪŋɡəl ɡɹˈiːn lˈaɪt , mˈɪnɪt ænd fˈɑːɹ ɐwˈeɪ , ðæt mˌaɪthɐv bˌɪn ðɪ ˈɛnd əvə dˈɑːk .|0
+audio_data/elevenlabs_0870.wav|ænd wʌt dˈʌz hiː dˈuː ?|0
+audio_data/elevenlabs_0369.wav|aɪ wɛnt ˌʌp tə nˈuː jˈɔːɹk wɪð tˈɑːm ɔnðə tɹˈeɪn wˈʌn ˌæftɚnˈuːn ænd wɛn wiː stˈɑːpt baɪ ðɪ ˈæʃhiːps hiː dʒˈʌmpt tə hɪz fˈiːt ænd tˈeɪkɪŋ hˈoʊld ʌv maɪ ˈɛlboʊ lˈɪɾɚɹəli fˈoːɹst mˌiː fɹʌmðə kˈɑːɹ .|0
+audio_data/elevenlabs_0101.wav|aɪ tˈoʊld hɜː hˌaʊ aɪ hæd stˈɑːpt ˈɔf ɪn ʃᵻkˈɑːɡoʊ fɚɹə dˈeɪ ˌɔn maɪ wˈeɪ ˈiːst ænd hˌaʊ ɐ dˈʌzən pˈiːpəl hæd sˈɛnt ðɛɹ lˈʌv θɹˈuː mˌiː .|0
+audio_data/elevenlabs_0391.wav|ænd ɪf juː fˈiːl ðæt wˈeɪ ɐbˈaʊt ɪt , mˈeɪbiː aɪd bˈɛɾɚ sˈɛl ɪt sˈʌmwɛɹ ˈɛls ˈæftɚɹ ˈɔːl .|0
+audio_data/elevenlabs_0096.wav|ɐɡˈɛn ɐ sˈɔːɹt ʌv ɐpˈɑːlədʒi ɚɹˈoʊz tə maɪ lˈɪps .|0
+audio_data/elevenlabs_0990.wav|hiː ʃɹˈʌɡd hɪz ʃˈoʊldɚz .|0
+audio_data/elevenlabs_0346.wav|sˈʌmθɪŋ wʌz mˌeɪkɪŋ hˌɪm nˈɪbəl æt ðɪ ˈɛdʒ ʌv stˈeɪl aɪdˈiəz æz ɪf hɪz stˈɜːdi fˈɪzɪkəl ˈɛɡətˌɪzəm nˌoʊ lˈɑːŋɡɚ nˈɜːɹɪʃt hɪz pɚɹˈɛmptɚɹi hˈɑːɹt .|0
+audio_data/elevenlabs_0784.wav|sˈiː !|0
+audio_data/elevenlabs_0222.wav|ɐ sʌbdˈuːd ɪmpˈæʃənd mˈɜːmɚ wʌz ˈɔːdᵻbəl ɪnðə ɹˈuːm bᵻjˌɔnd ænd mˈɪs bˈeɪkɚ lˈiːnd fˈɔːɹwɚd , ʌnɐʃˈeɪmd , tɹˈaɪɪŋ tə hˈɪɹ .|0
+audio_data/elevenlabs_0161.wav|ʃiː tˈɜːnd tə mˌiː hˈɛlpləsli .|0
+audio_data/elevenlabs_0964.wav|ðˈɛn ðə bˈʌtlɚ , bᵻhˌaɪnd hɪz ʃˈoʊldɚ : `` fɪlɐdˈɛlfiə wˈɔnts juː ɔnðə fˈoʊn , sˌɜː .|0
+audio_data/elevenlabs_0350.wav|sˈʌmθɪŋ ɪn hɪz lˈiːʒɚli mˈuːvmənts ænd ðə sᵻkjˈʊɹ pəzˈɪʃən ʌv hɪz fˈiːt əpˌɑːn ðə lˈɔːn sədʒˈɛstᵻd ðˌɐɾɪt wʌz mˈɪstɚ . ɡˈætsbi hɪmsˈɛlf , kˈʌm ˈaʊt tə dɪtˈɜːmɪn wʌt ʃˈɛɹ wʌz hɪz ʌv ˌaʊɚ lˈoʊkəl hˈɛvənz .|0
+audio_data/elevenlabs_0983.wav|haʊˈɛvɚ , æz ðeɪ hæd lˈɛft ðɛɹ kˈɑːɹz blˈɑːkɪŋ ðə ɹˈoʊd ɐ hˈɑːɹʃ dɪskˈoːɹdənt dˈɪn fɹʌm ðoʊz ɪnðə ɹˈɪɹ hɐdbɪn ˈɔːdᵻbəl fɔːɹ sˌʌm tˈaɪm ænd ˈædᵻd tə ðɪ ɔːlɹˌɛdi vˈaɪələnt kənfjˈuːʒən ʌvðə sˈiːn .|0
+audio_data/elevenlabs_0716.wav|ðæt wʌz fɚðə ɡˈɑːlf tˈʊɹnəmənt .|0
+audio_data/elevenlabs_0165.wav|ʃiː kəmplˈeɪnd .|0
+audio_data/elevenlabs_0828.wav|aɪ wʌz ɪnðə nˈaɪnθ məʃˈiːŋɡˈʌn bɐtˈæliən .|0
+audio_data/elevenlabs_0780.wav|mˈæɾɚɹ ʌv fˈækt , ðeɪɚɹ ˌæbsəlˈuːtli ɹˈiːəl .|0
+audio_data/elevenlabs_0007.wav|aɪɐm stˈɪl ɐ lˈɪɾəl ɐfɹˈeɪd ʌv mˈɪsɪŋ sˈʌmθɪŋ ɪf aɪ fɚɡˈɛt ðˈæt , æz maɪ fˈɑːðɚ snˈɑːbɪʃli sədʒˈɛstᵻd , ænd aɪ snˈɑːbɪʃli ɹᵻpˈiːt , ɐ sˈɛns ʌvðə fˌʌndəmˈɛntəl dˈiːsənsiz ɪz pˈɑːɹsəld ˈaʊt ʌnˈiːkwəli æt bˈɜːθ .|0
+audio_data/elevenlabs_0893.wav|hɪz tˈænd skˈɪn wʌz dɹˈɔːn ɐtɹˈæktɪvli tˈaɪt ˌɔn hɪz fˈeɪs ænd hɪz ʃˈɔːɹt hˈɛɹ lˈʊkt æz ðˌoʊ ɪt wɜː tɹˈɪmd ˈɛvɹi dˈeɪ .|0
+audio_data/elevenlabs_0831.wav|wiː tˈɔːkt fɚɹə mˈoʊmənt ɐbˌaʊt sˌʌm wˈɛt , ɡɹˈeɪ lˈɪɾəl vˈɪlɪdʒᵻz ɪn fɹˈæns .|0
+audio_data/elevenlabs_0286.wav|tˈɑːm ænd mˈɪs bˈeɪkɚ sˈæt æɾ ˈiːðɚɹ ˈɛnd ʌvðə lˈɔŋ kˈaʊtʃ ænd ʃiː ɹˈiːd ɐlˈaʊd tə hˌɪm fɹʌmðə `` sˈæɾɚdˌeɪ ˈiːvnɪŋ pˈoʊst '' ðə wˈɜːdz , mˈɜːmɚɹəs ænd ˌʌnɪnflˈɛktᵻd , ɹˈʌnɪŋ təɡˌɛðɚɹ ɪn ɐ sˈuːðɪŋ tˈuːn .|0
+audio_data/elevenlabs_0605.wav|aɪ nˈuː ɹˈaɪt ɐwˈeɪ aɪ mˌeɪd ɐ mɪstˈeɪk .|0
+audio_data/elevenlabs_0461.wav|æt wˈʌnhˈʌndɹɪd fˈɪfti ˈeɪtθ stɹˈiːt ðə kˈæb stˈɑːpt æt wˈʌn slˈaɪs ɪn ɐ lˈɔŋ wˈaɪt kˈeɪk ʌv ɐpˈɑːɹtmənt hˈaʊzᵻz .|0
+audio_data/elevenlabs_0227.wav|ɪz sˈʌmθɪŋ hˈæpənɪŋ ?|0
+audio_data/elevenlabs_0431.wav|ðə mˈæn pˈɪɹd dˈaʊtfəli ˌɪntʊ ðə bˈæskɪt , plˈʌndʒd ɪn hɪz hˈænd ænd dɹˈuː wˈʌn ˈʌp , ɹˈɪɡlɪŋ , baɪ ðə bˈæk ʌvðə nˈɛk .|0
+audio_data/elevenlabs_0986.wav|hiː ɛksplˈeɪnd .|0
+audio_data/elevenlabs_0720.wav|wɪð dʒˈoːɹdənz slˈɛndɚ ɡˈoʊldən ˈɑːɹm ɹˈɛstɪŋ ɪn mˈaɪn wiː dᵻsˈɛndᵻd ðə stˈɛps ænd sˈɔːntɚd ɐbˌaʊt ðə ɡˈɑːɹdən .|0
+audio_data/elevenlabs_0667.wav|.|0
+audio_data/elevenlabs_0736.wav|ðɛɹz sˈʌmθɪŋ fˈʌni ɐbˌaʊt ɐ fˈɛloʊ ðˌæɾəl dˈuː ɐ θˈɪŋ lˈaɪk ðˈæt , '' sˈɛd ðɪ ˈʌðɚ ɡˈɜːl ˈiːɡɚli .|0
+audio_data/elevenlabs_0205.wav|jˈɛs .|0
+audio_data/elevenlabs_0576.wav|nˈoʊ , wiː dʒˈʌst wɛnt tə mˈɑːnti kˈɑːɹloʊ ænd bˈæk .|0
+audio_data/elevenlabs_0029.wav|hiː ˈæskt hˈɛlpləsli .|0
+audio_data/elevenlabs_0618.wav|aɪ wʌz wɪðˌɪn ænd wɪðˈaʊt , sˌaɪməltˈeɪniəsli ɛntʃˈæntᵻd ænd ɹᵻpˈɛld baɪ ðɪ ˌɪnɛɡzˈɔːstᵻbəl vɚɹˈaɪəɾi ʌv lˈaɪf .|0
+audio_data/elevenlabs_0519.wav|ðˈɛn ʃiː flˈaʊnst ˌoʊvɚ tə ðə dˈɑːɡ , kˈɪst ɪt wɪð ˈɛkstəsi ænd swˈɛpt ˌɪntʊ ðə kˈɪtʃən , ɪmplˈaɪɪŋ ðˌæɾə dˈʌzən ʃˈɛfs ɐwˈeɪɾᵻd hɜːɹ ˈɔːɹdɚz ðˈɛɹ .|0
+audio_data/elevenlabs_0240.wav|ɪt kˌʊdənt biː hˈɛlpt !|0
+audio_data/elevenlabs_0225.wav|dˈoʊnt tˈɔːk .|0
+audio_data/elevenlabs_0097.wav|ˈɔːlmoʊst ˌɛni ɛksɪbˈɪʃən ʌv kəmplˈiːt sˈɛlf səfˈɪʃənsi dɹˈɔːz ɐ stˈʌnd tɹˈɪbjuːt fɹʌm mˌiː .|0
+audio_data/elevenlabs_0032.wav|aɪ wʌzɐ ɡˈaɪd , ɐ pˈæθfaɪndɚ , ɐn ɚɹˈɪdʒɪnəl sˈɛtlɚ .|0
+audio_data/elevenlabs_0034.wav|ænd sˌoʊ wɪððə sˈʌnʃaɪn ænd ðə ɡɹˈeɪt bˈɜːsts ʌv lˈiːvz ɡɹˈoʊɪŋ ɔnðə tɹˈiːz dʒˈʌst æz θˈɪŋz ɡɹˈoʊ ɪn fˈæst mˈuːvɪz aɪ hæd ðæt fəmˈɪlɪɹ kənvˈɪkʃən ðæt lˈaɪf wʌz bɪɡˈɪnɪŋ ˌoʊvɚɹ ɐɡˈɛn wɪððə sˈʌmɚ .|0
+audio_data/elevenlabs_0434.wav|ɪts mˈoːɹ əvən ˈɛɹdeɪl .|0
+audio_data/elevenlabs_0606.wav|hiː bˈɑːɹoʊd sˈʌmbɑːdiz bˈɛst sˈuːt tə ɡɛt mˈæɹid ɪn ænd nˈɛvɚɹ ˈiːvən tˈoʊld mˌiː ɐbˈaʊt ɪt , ænd ðə mˈæn kˈeɪm ˈæftɚɹ ɪt wˈʌn dˈeɪ wɛn hiː wʌz ˈaʊt .|0
+audio_data/elevenlabs_0091.wav|ʃiː lˈæft ɐɡˈɛn , æz ɪf ʃiː sˈɛd sˈʌmθɪŋ vˈɛɹi wˈɪɾi , ænd hˈɛld maɪ hˈænd fɚɹə mˈoʊmənt , lˈʊkɪŋ ˌʌp ˌɪntʊ maɪ fˈeɪs , pɹˈɑːmɪsɪŋ ðæt ðɛɹwˌʌz nˈoʊwˈʌn ɪnðə wˈɜːld ʃiː sˈoʊ mˌʌtʃ wˈɔntᵻd tə sˈiː .|0
+audio_data/elevenlabs_0560.wav|ɪt kˈeɪm fɹʌm mˈɜːɾəl hˌuː hæd ˌoʊvɚhˈɜːd ðə kwˈɛstʃən ænd ɪt wʌz vˈaɪələnt ænd əbsˈiːn .|0
+audio_data/elevenlabs_0916.wav|ʃiː hæd ɐ fˈaɪt wɪð ɐ mˈæn hˌuː sˈɛz hiːz hɜː hˈʌsbənd , '' ɛksplˈeɪnd ɐ ɡˈɜːl æt maɪ ˈɛlboʊ .|0
+audio_data/elevenlabs_0761.wav|wiː ɡɑːt ˈʌp , ænd ʃiː ɛksplˈeɪnd ðæt wiː wɜː ɡˌoʊɪŋ tə fˈaɪnd ðə hˈoʊst aɪ hæd nˈɛvɚ mˈɛt hˌɪm , ʃiː sˈɛd , ænd ɪt wʌz mˌeɪkɪŋ mˌiː ʌnˈiːzi .|0
+audio_data/elevenlabs_0694.wav|pˈiːpəl wɜː nˌɑːt ɪnvˈaɪɾᵻd ðeɪ wɛnt ðˈɛɹ .|0
+audio_data/elevenlabs_0106.wav|hˌaʊ ɡˈoːɹdʒəs !|0
+audio_data/elevenlabs_0757.wav|ðɛɹwˌɜː θɹˈiː mˈæɹid kˈʌpəlz ænd dʒˈoːɹdənz ˈɛskɔːɹt , ɐ pɚsˈɪstənt ˌʌndɚɡɹˈædʒuːət ɡˈɪvən tə vˈaɪələnt ɪnnjuːˈɛndoʊ ænd ˈɑːbviəsli ˌʌndɚ ðɪ ɪmpɹˈɛʃən ðæt sˈuːnɚ ɔːɹ lˈeɪɾɚ dʒˈoːɹdən wʌz ɡˌoʊɪŋ tə jˈiːld hˌɪm ˌʌp hɜː pˈɜːsən tʊ ɐ ɡɹˈeɪɾɚ ɔːɹ lˈɛsɚ dᵻɡɹˈiː .|0
+audio_data/elevenlabs_0144.wav|aɪ nˈoʊ sˈʌmbɑːdi ðˈɛɹ .|0
+audio_data/elevenlabs_0230.wav|sˈɛd mˈɪs bˈeɪkɚ , ˈɑːnɪstli sɚpɹˈaɪzd .|0
+audio_data/elevenlabs_0252.wav|ɪn ɪts dˈiːp ɡlˈuːm wiː sˈæt dˌaʊn sˈaɪd baɪ sˈaɪd ˌɔn ɐ wˈɪkɚ sɛtˈiː .|0
+audio_data/elevenlabs_0283.wav|ɪt mˌeɪd mˌiː ʌnˈiːzi , æz ðˌoʊ ðə hˈoʊl ˈiːvnɪŋ hɐdbɪn ɐ tɹˈɪk ʌv sˌʌm sˈɔːɹt tʊ ɛɡzˈækt ɐ kəntɹˈɪbjuːtˌoːɹi ɪmˈoʊʃən fɹʌm mˌiː .|0
+audio_data/elevenlabs_0762.wav|ðɪ ˌʌndɚɡɹˈædʒuːət nˈɑːdᵻd ɪn ɐ sˈɪnɪkəl , mˈɛləŋkˌɑːli wˈeɪ .|0
+audio_data/elevenlabs_0027.wav|ɪt wʌz lˈoʊnli fɚɹə dˈeɪ ɔːɹ sˌoʊ ʌntˈɪl wˈʌn mˈɔːɹnɪŋ sˌʌm mˈæn , mˈoːɹ ɹˈiːsəntli ɚɹˈaɪvd ðɐn ˈaɪ , stˈɑːpt mˌiː ɔnðə ɹˈoʊd .|0
+audio_data/elevenlabs_0116.wav|ʃiːz '' tˈɑːm bjuːkˈænən hˌuː hɐdbɪn hˈʌvɚɹɪŋ ɹˈɛstləsli ɐbˌaʊt ðə ɹˈuːm stˈɑːpt ænd ɹˈɛstᵻd hɪz hˈænd ˌɔn maɪ ʃˈoʊldɚ .|0
+audio_data/elevenlabs_0656.wav|.|0

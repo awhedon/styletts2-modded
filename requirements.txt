@@ -1,3 +1,5 @@
+pandas
+librosa
 SoundFile
 torchaudio
 munch
@@ -9,9 +11,11 @@ nltk
 matplotlib
 accelerate
 transformers
+phonemizer
 einops
 einops-exts
 tqdm
 typing
 typing-extensions
 git+https://github.com/resemble-ai/monotonic_align.git
+tensorboard

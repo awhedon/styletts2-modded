@@ -1,3 +1,5 @@
 __pycache__
 /Utils/*
 /Models/*
+*/.ipynb_checkpoints/*
+log*

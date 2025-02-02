@@ -3,3 +3,4 @@ __pycache__
 /Models/*
 */.ipynb_checkpoints/*
 log*
+*.out

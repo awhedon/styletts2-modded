@@ -2,10 +2,10 @@ log_dir: "Models/LJSpeech"
 save_freq: 1
 log_interval: 10
 device: "cuda"
-epochs: 15 # number of finetuning epoch (1 hour of data)
+epochs: 6 # number of finetuning epoch (1 hour of data)
 batch_size: 8
 max_len: 150 # maximum number of frames
-pretrained_model: "Models/Data_Tony/epoch_2nd_00003.pth"
+pretrained_model: "Models/Data_Tony_10epochs/epoch_2nd_00008.pth"
 second_stage_load_pretrained: true # set to true if the pre-trained model is for 2nd stage
 load_only_params: true # set to true if do not want to load epoch numbers and optimizer parameters
 
@@ -92,8 +92,8 @@ loss_params:
     lambda_sty: 1. # style reconstruction loss
     lambda_diff: 1. # score matching loss
     
-    diff_epoch: 5 # style diffusion starting epoch
-    joint_epoch: 10 # joint training starting epoch
+    diff_epoch: 0 # style diffusion starting epoch
+    joint_epoch: 1 # joint training starting epoch
 
 optimizer_params:
   lr: 0.0001 # general learning rate

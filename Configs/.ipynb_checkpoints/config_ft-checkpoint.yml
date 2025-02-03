@@ -5,7 +5,7 @@ device: "cuda"
 epochs: 20 # number of finetuning epoch (1 hour of data)
 batch_size: 16
 max_len: 1100 # maximum number of frames
-pretrained_model: "Models/LibriTTS/epoch_2nd_00020.pth"
+pretrained_model: "Models/LibriTTS/epochs_2nd_00020.pth"
 second_stage_load_pretrained: true # set to true if the pre-trained model is for 2nd stage
 load_only_params: true # set to true if do not want to load epoch numbers and optimizer parameters
 
@@ -15,9 +15,10 @@ ASR_path: "Utils/ASR/epoch_00080.pth"
 PLBERT_dir: 'Utils/PLBERT/'
 
 data_params:
-  train_data: "Data_Tony/train_list.txt"
-  val_data: "Data_Tony/val_list.txt"
-  root_path: "Data_Tony/"
+  train_data: "data_tony_all/train_list.txt"
+  val_data: "data_tony_all/val_list.txt"
+  root_path: "data_tony_all/"
+  reference_path: "rebel_spaceships.mp3"
   OOD_data: "Data/OOD_texts.txt"
   min_length: 50 # sample until texts with this size are obtained for OOD texts
 
@@ -29,7 +30,7 @@ preprocess_params:
     hop_length: 300
 
 model_params:
-  multispeaker: true
+  multispeaker: false
 
   dim_in: 64 
   hidden_dim: 512
@@ -92,7 +93,7 @@ loss_params:
     lambda_sty: 1. # style reconstruction loss
     lambda_diff: 1. # score matching loss
     
-    diff_epoch: 6 # style diffusion starting epoch
+    diff_epoch: 7 # style diffusion starting epoch
     joint_epoch: 13 # joint training starting epoch
 
 optimizer_params:

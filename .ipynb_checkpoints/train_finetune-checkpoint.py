@@ -14,6 +14,8 @@ import shutil
 import warnings
 warnings.simplefilter('ignore')
 from torch.utils.tensorboard import SummaryWriter
+import torch.serialization
+torch.serialization.add_safe_globals(['getattr'])
 
 from meldataset import build_dataloader
 

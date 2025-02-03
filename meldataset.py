@@ -69,6 +69,7 @@ class FilePathDataset(torch.utils.data.Dataset):
     def __init__(self,
                  data_list,
                  root_path,
+                 reference_path=None,
                  sr=24000,
                  data_augmentation=False,
                  validation=False,
@@ -104,7 +105,27 @@ class FilePathDataset(torch.utils.data.Dataset):
             tl = f.readlines()
         idx = 1 if '.wav' in tl[0].split('|')[0] else 0
         self.ptexts = [t.split('|')[idx] for t in tl]
-        
+
+        # Load and preprocess the reference audio
+        if reference_path:
+            print(f"Loading reference audio from {reference_path}")
+            self.reference_wave, _ = librosa.load(reference_path, sr=24000)
+            mel = preprocess(self.reference_wave).squeeze()
+            
+            # Ensure reference mel is the correct size
+            if mel.size(1) > self.max_mel_length:
+                # Trim from the beginning
+                self.reference_mel = mel[:, :self.max_mel_length]
+            else:
+                # Pad if too short
+                pad_length = self.max_mel_length - mel.size(1)
+                self.reference_mel = F.pad(mel, (0, pad_length), mode='constant', value=0)
+                
+            print(f"Reference mel shape: {self.reference_mel.shape}")
+        else:
+            self.reference_wave = None
+            self.reference_mel = None  
+
     def _filter_valid_files(self, data_list):
         """Filter out invalid or too short audio files."""
         valid_files = []
@@ -151,9 +172,20 @@ class FilePathDataset(torch.utils.data.Dataset):
     def __getitem__(self, idx):
         max_attempts = 10  # Maximum number of attempts to get valid data
         attempts = 0
+        tried_indices = set()  # Keep track of indices we've tried
+        original_idx = idx
+        last_error = None  # Store the last error message
         
         while attempts < max_attempts:
             try:
+                if idx in tried_indices:
+                    # If we've tried this index before, get a new random one
+                    remaining_indices = list(set(range(len(self.data_list))) - tried_indices)
+                    if not remaining_indices:
+                        raise RuntimeError(f"No more valid indices to try after {attempts} attempts")
+                    idx = random.choice(remaining_indices)
+                
+                tried_indices.add(idx)
                 data = self.data_list[idx]
                 path = data[0]
                 
@@ -161,6 +193,7 @@ class FilePathDataset(torch.utils.data.Dataset):
                 try:
                     wave, text_tensor, speaker_id = self._load_tensor(data)
                     if wave is None:  # If _load_tensor failed
+                        print(f"Failed to load tensor for index {idx}, path: {path}")
                         idx = (idx + 1) % len(self.data_list)
                         attempts += 1
                         continue
@@ -184,9 +217,18 @@ class FilePathDataset(torch.utils.data.Dataset):
                 
                 # Get reference sample with error handling
                 try:
-                    ref_data = (self.df[self.df[2] == str(speaker_id)]).sample(n=1).iloc[0].tolist()
-                    ref_mel_tensor, ref_label = self._load_data(ref_data[:3])
-                    if ref_mel_tensor is None:  # Check if reference loading failed
+                    if self.reference_mel is not None:
+                        # Use the pre-loaded reference
+                        ref_mel_tensor = self.reference_mel
+                        ref_label = speaker_id
+                    else:
+                        # Fallback to using a random sample from the dataset
+                        random_idx = np.random.randint(0, len(self.data_list))
+                        ref_data = self.data_list[random_idx]
+                        ref_mel_tensor, ref_label = self._load_data(ref_data[:3])
+                        
+                    if ref_mel_tensor is None:
+                        print(f"Failed to load reference mel tensor")
                         idx = (idx + 1) % len(self.data_list)
                         attempts += 1
                         continue
@@ -230,7 +272,14 @@ class FilePathDataset(torch.utils.data.Dataset):
                 attempts += 1
                 continue
         
-        raise RuntimeError(f"Failed to load valid data after {max_attempts} attempts starting from index {idx}")
+        # If we get here, we failed to load valid data
+        error_msg = (
+            f"Failed to load valid data after {max_attempts} attempts.\n"
+            f"Starting index: {original_idx}\n"
+            f"Tried indices: {sorted(list(tried_indices))}\n"
+            f"Total dataset size: {len(self.data_list)}"
+        )
+        raise RuntimeError(error_msg)
 
     def _load_tensor(self, data):
         try:
@@ -305,13 +354,24 @@ class FilePathDataset(torch.utils.data.Dataset):
 
     def _load_data(self, data):
         wave, text_tensor, speaker_id = self._load_tensor(data)
+        if wave is None:
+            return None, None
+            
         mel_tensor = preprocess(wave).squeeze()
-
+        
+        # Handle the size
+        target_length = self.max_mel_length  # This should be 192 based on your error
         mel_length = mel_tensor.size(1)
-        if mel_length > self.max_mel_length:
-            random_start = np.random.randint(0, mel_length - self.max_mel_length)
-            mel_tensor = mel_tensor[:, random_start:random_start + self.max_mel_length]
-
+        
+        if mel_length > target_length:
+            # If longer than target, randomly crop
+            start = np.random.randint(0, mel_length - target_length)
+            mel_tensor = mel_tensor[:, start:start + target_length]
+        elif mel_length < target_length:
+            # If shorter than target, pad with zeros
+            pad_length = target_length - mel_length
+            mel_tensor = F.pad(mel_tensor, (0, pad_length), mode='constant', value=0)
+        
         return mel_tensor, speaker_id
 
 
@@ -379,6 +439,7 @@ class Collater(object):
 
 def build_dataloader(path_list,
                      root_path,
+                     reference_path="rebel_spaceships.mp3",
                      validation=False,
                      OOD_data="Data/OOD_texts.txt",
                      min_length=50,
@@ -388,7 +449,17 @@ def build_dataloader(path_list,
                      collate_config={},
                      dataset_config={}):
     
-    dataset = FilePathDataset(path_list, root_path, OOD_data=OOD_data, min_length=min_length, validation=validation, **dataset_config)
+    dataset = FilePathDataset(path_list, root_path,  reference_path=reference_path, OOD_data=OOD_data, min_length=min_length, validation=validation, **dataset_config)
+
+    # Validate a few samples before creating the dataloader
+    print(f"Validating dataset with {len(dataset)} samples...")
+    for i in range(min(5, len(dataset))):
+        try:
+            _ = dataset[i]
+            print(f"Successfully validated sample {i}")
+        except Exception as e:
+            print(f"Warning: Failed to load sample {i}: {e}")
+
     collate_fn = Collater(**collate_config)
     data_loader = DataLoader(dataset,
                              batch_size=batch_size,

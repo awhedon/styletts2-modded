@@ -2,10 +2,10 @@ log_dir: "Models/LJSpeech"
 save_freq: 1
 log_interval: 10
 device: "cuda"
-epochs: 6 # number of finetuning epoch (1 hour of data)
-batch_size: 8
-max_len: 150 # maximum number of frames
-pretrained_model: "Models/Data_Tony_10epochs/epoch_2nd_00008.pth"
+epochs: 20 # number of finetuning epoch (1 hour of data)
+batch_size: 16
+max_len: 1100 # maximum number of frames
+pretrained_model: "Models/LibriTTS/epoch_2nd_00020.pth"
 second_stage_load_pretrained: true # set to true if the pre-trained model is for 2nd stage
 load_only_params: true # set to true if do not want to load epoch numbers and optimizer parameters
 
@@ -92,8 +92,8 @@ loss_params:
     lambda_sty: 1. # style reconstruction loss
     lambda_diff: 1. # score matching loss
     
-    diff_epoch: 0 # style diffusion starting epoch
-    joint_epoch: 1 # joint training starting epoch
+    diff_epoch: 6 # style diffusion starting epoch
+    joint_epoch: 13 # joint training starting epoch
 
 optimizer_params:
   lr: 0.0001 # general learning rate
@@ -101,10 +101,10 @@ optimizer_params:
   ft_lr: 0.0001 # learning rate for acoustic modules
   
 slmadv_params:
-  min_len: 400 # minimum length of samples
-  max_len: 500 # maximum length of samples
+  min_len: 600 # minimum length of samples
+  max_len: 1000 # maximum length of samples
   batch_percentage: 0.5 # to prevent out of memory, only use half of the original batch size
-  iter: 10 # update the discriminator every this iterations of generator update
+  iter: 5 # update the discriminator every this iterations of generator update
   thresh: 5 # gradient norm above which the gradient is scaled
   scale: 0.01 # gradient scaling factor for predictors from SLM discriminators
   sig: 1.5 # sigma for differentiable duration modeling

@@ -1,10 +1,10 @@
-log_dir: "Models/LJSpeech"
+log_dir: "Models/data_tony_all_fixed"
 save_freq: 1
 log_interval: 10
 device: "cuda"
 epochs: 20 # number of finetuning epoch (1 hour of data)
 batch_size: 16
-max_len: 500 # maximum number of frames
+max_len: 1200 # maximum number of frames
 pretrained_model: "Models/LibriTTS/epochs_2nd_00020.pth"
 second_stage_load_pretrained: true # set to true if the pre-trained model is for 2nd stage
 load_only_params: true # set to true if do not want to load epoch numbers and optimizer parameters
@@ -18,7 +18,6 @@ data_params:
   train_data: "data_tony_all/train_list.txt"
   val_data: "data_tony_all/val_list.txt"
   root_path: "data_tony_all/"
-  reference_path: "rebel_spaceships.mp3"
   OOD_data: "Data/OOD_texts.txt"
   min_length: 50 # sample until texts with this size are obtained for OOD texts
 
@@ -30,7 +29,7 @@ preprocess_params:
     hop_length: 300
 
 model_params:
-  multispeaker: false
+  multispeaker: true
 
   dim_in: 64 
   hidden_dim: 512
@@ -104,7 +103,7 @@ optimizer_params:
 slmadv_params:
   min_len: 600 # minimum length of samples
   max_len: 1000 # maximum length of samples
-  batch_percentage: 0.5 # to prevent out of memory, only use 75% of the original batch size
+  batch_percentage: 0.75 # to prevent out of memory, only use 75% of the original batch size
   iter: 5 # update the discriminator every this iterations of generator update
   thresh: 5 # gradient norm above which the gradient is scaled
   scale: 0.01 # gradient scaling factor for predictors from SLM discriminators

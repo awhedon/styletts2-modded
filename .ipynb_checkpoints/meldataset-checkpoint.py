@@ -175,6 +175,7 @@ class FilePathDataset(torch.utils.data.Dataset):
         tried_indices = set()  # Keep track of indices we've tried
         original_idx = idx
         last_error = None  # Store the last error message
+        max_text_length = 512
         
         while attempts < max_attempts:
             try:
@@ -341,6 +342,11 @@ class FilePathDataset(torch.utils.data.Dataset):
             wave = np.concatenate([np.zeros([5000]), wave, np.zeros([5000])], axis=0)
             
             text = self.text_cleaner(text)
+            # Add length check before adding tokens
+            MAX_TEXT_LENGTH = 512
+            if len(text) + 2 > MAX_TEXT_LENGTH:  # +2 for start/end tokens
+                print(f"Warning: Truncating text from {len(text)} to {MAX_TEXT_LENGTH-2} tokens for {wave_path}")
+                text = text[:(MAX_TEXT_LENGTH-2)]
             text.insert(0, 0)
             text.append(0)
             text = torch.LongTensor(text)

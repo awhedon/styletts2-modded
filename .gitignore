@@ -5,3 +5,4 @@ __pycache__
 log*
 *.out
 *data*/*
+data.zip

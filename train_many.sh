@@ -3,7 +3,7 @@
 CONFIG_DIR="./Configs"  # Directory containing config files
 S3_BUCKET="s3://jennai-data/tony"  # S3 bucket base path
 
-for CONFIG in "$CONFIG_DIR"/config_ljspeech_*.yml; do
+for CONFIG in "$CONFIG_DIR"/config_ljspeech_yt.yml; do
     # Extract log_dir from the YAML file
     LOG_DIR=$(grep "log_dir:" "$CONFIG" | awk '{print $2}' | tr -d '"')
 
